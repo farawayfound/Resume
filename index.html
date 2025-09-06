@@ -433,19 +433,46 @@
       </div>
     </section>
 
-    <!-- SKILLS -->
-    <section class="section container">
-      <div class="section-head">
-        <h2 class="h2">Skills</h2>
-        <span class="muted">Tools I reach for</span>
-      </div>
-      <div class="chips reveal">
-        <span class="chip">C#</span><span class="chip">Java</span><span class="chip">T‑SQL</span><span class="chip">PowerShell</span><span class="chip">Python</span><span class="chip">HTML/CSS/JS</span>
-        <span class="chip">.NET</span><span class="chip">SSMS</span><span class="chip">Visual Studio</span><span class="chip">Jira</span><span class="chip">ServiceNow</span><span class="chip">Splunk</span>
-        <span class="chip">Kubernetes</span><span class="chip">Rancher</span><span class="chip">Azure DevOps</span><span class="chip">Git</span><span class="chip">JAMS</span>
-        <span class="chip">Agile/Scrum</span><span class="chip">Incident Mgmt</span><span class="chip">Mentorship</span>
-      </div>
-    </section>
+<!-- SKILLS (grouped) -->
+<section class="section container" id="skills">
+<div class="section-head">
+<h2 class="h2">Skills</h2>
+<span class="muted">Grouped: <strong>Languages</strong> • <strong>Tools</strong> • <strong>Skills</strong></span>
+</div>
+<div class="grid reveal" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); align-items:start">
+<div class="card" style="padding:16px">
+<div class="h3" style="margin-bottom:8px">Languages</div>
+<div class="chips">
+<span class="chip">C#</span><span class="chip">Java</span><span class="chip">Python</span><span class="chip">T‑SQL</span><span class="chip">PowerShell</span><span class="chip">HTML/CSS/JS</span>
+</div>
+</div>
+<div class="card" style="padding:16px">
+<div class="h3" style="margin-bottom:8px">Tools</div>
+<div class="chips">
+<span class="chip">.NET</span><span class="chip">Visual Studio</span><span class="chip">SSMS</span><span class="chip">Git</span><span class="chip">Azure</span><span class="chip">Azure DevOps</span>
+<span class="chip">Kubernetes</span><span class="chip">Rancher</span><span class="chip">Jira</span><span class="chip">ServiceNow</span><span class="chip">Splunk</span><span class="chip">Postman</span>
+<span class="chip">JAMS</span>
+</div>
+</div>
+<div class="card" style="padding:16px">
+<div class="h3" style="margin-bottom:8px">Skills</div>
+<div class="chips">
+<span class="chip">Agile/Scrum</span><span class="chip">Incident Mgmt</span><span class="chip">Root Cause Analysis</span><span class="chip">Performance Tuning</span>
+<span class="chip">Data Modeling</span><span class="chip">CI/CD</span><span class="chip">SRE Mindset</span><span class="chip">Stakeholder Comms</span><span class="chip">Mentorship</span><span class="chip">Documentation</span>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- DOWNLOADS (auto-rendered from /data/downloads.json) -->
+<section class="section container" id="downloads-section" hidden>
+<div class="section-head">
+<h2 class="h2">Downloads & Docs</h2>
+<span class="muted">Served from <code>/downloads</code>; links centralized in <code>/data</code></span>
+</div>
+<div id="downloads" class="grid"></div>
+</section>
 
     <!-- DOWNLOADS (auto-rendered from /data/downloads.json) -->
     <section class="section container" id="downloads-section" hidden>
