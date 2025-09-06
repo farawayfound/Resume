@@ -114,22 +114,23 @@
           <div class="avatar" aria-hidden="true"><div></div></div>
           <div>
             <div class="chip" title="Denver / Remote">📍 Denver, CO</div>
+            <div class="chip" title="Last updated">Last updated: Aug 2025</div>
           </div>
         </div>
         <div class="buttons">
-          <a class="btn" href="mailto:david.chui@outlook.com">
+          <a class="btn" data-link="email">
             <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2.4-.5 7.6 5.3L19.6 6H4.4Zm15.1 2.1-6.8 4.8a2 2 0 0 1-2.3 0L3.6 8.1V17.5c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V8.1Z"/></svg>
             Email
           </a>
-          <a class="btn secondary" href="https://www.linkedin.com/in/david-chui-co" target="_blank" rel="noopener">
+          <a class="btn secondary" data-link="linkedin">
             <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.85-2.05 3.8-2.05C19.4 8 22 10.06 22 14v9h-4v-8.02c0-1.91-.03-4.37-2.66-4.37-2.66 0-3.07 2.08-3.07 4.23V23h-4V8z"/></svg>
             LinkedIn
           </a>
-          <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener" title="Add your GitHub URL">
+          <a class="btn secondary" data-link="github" title="GitHub">
             <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.26.79-.57v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.36-1.3-1.72-1.3-1.72-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.74 1.27 3.4.97.1-.77.41-1.27.75-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.09-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.2 1.18.93-.26 1.93-.39 2.92-.39.99 0 2 .13 2.93.39 2.22-1.5 3.2-1.18 3.2-1.18.63 1.6.23 2.77.11 3.05.75.8 1.2 1.83 1.2 3.09 0 4.43-2.69 5.41-5.25 5.7.42.36.8 1.07.8 2.16v3.2c0 .32.21.68.8.56A11.51 11.51 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
             GitHub
           </a>
-          <a class="btn secondary" href="./resume.pdf" title="Place your exported PDF in the site folder">
+          <a class="btn secondary" data-link="resume_pdf" title="Download Resume PDF">
             ⬇︎ Download PDF
           </a>
         </div>
@@ -137,7 +138,7 @@
 
       <div>
         <h1 class="h1">David Chui</h1>
-        <p class="lead">Tenacious software engineer & veteran. I stabilize and scale mission‑critical C#/.NET and Azure systems, then make them faster, safer, and easier to ship. Currently completing a B.S. in Finance & Information Systems to bridge engineering with financial strategy.</p>
+        <p class="lead">Tenacious software engineer & veteran. I stabilize and scale mission‑critical C#/.NET and Azure systems, then make them faster, safer, and easier to ship. Completed B.S. (Finance & Information Systems) in Aug 2025 to bridge engineering with financial strategy.</p>
         <div class="chips" style="margin-top:10px">
           <span class="chip">C#/.NET</span>
           <span class="chip">Azure</span>
@@ -165,7 +166,7 @@
               <div>
                 <h3 class="acc-title h3">Technical Engineer II — HomeCare HomeBase (Hearst Health)</h3>
                 <div class="acc-meta">
-                  <span class="chip">Jul 2022 – Present</span>
+                  <span class="chip">Jul 2022 – Jul 2025</span>
                   <span class="chip">C#/.NET</span>
                   <span class="chip">Azure</span>
                   <span class="chip">SQL</span>
@@ -180,16 +181,18 @@
             <div id="exp-hchb" class="acc-panel" role="region" aria-labelledby="exp-hchb-label">
               <div class="acc-panel-inner">
                 <div class="grid" style="grid-template-columns: 56px 1fr; align-items:start; gap:14px">
-                  <a class="logo" title="Add /assets/hchb.png" href="#">
-                    <img alt="HCHB logo placeholder" data-src="./assets/hchb.png" />
+                  <a class="logo" title="Add /assets/logos/hchb.png" href="#">
+                    <img alt="HCHB logo placeholder" data-src="./assets/logos/hchb.png" />
                   </a>
                   <ul class="bullets">
-                    <li>Drove end‑to‑end SDLC enhancements for a mission‑critical C#.NET monolith powering regulated healthcare operations.</li>
-                    <li>Performed deep root‑cause analysis with Splunk + Azure DW; resolved exceptions (<code>NullReferenceException</code>, <code>InvalidOperationException</code>, SQL errors) without regressions.</li>
-                    <li>Kept 99.9% uptime across HA services; orchestrated incident response across Kubernetes clusters and Kafka streams; led post‑mortems with preventive fixes.</li>
-                    <li>Designed and executed secure, HIPAA‑aligned customer database ops including large‑scale migrations and acquisition merges.</li>
-                    <li>Built a PowerShell + ServiceNow + T‑SQL automation suite saving 500+ hours/year on compliance reporting.</li>
-                    <li>Delivered 30+ billable customer projects; created repeatable solutions and docs that reduced escalations across 600+ high‑priority requests.</li>
+                    <li><strong>SDLC ownership:</strong> Delivered fixes and enhancements across a large C#/.NET codebase powering regulated home‑health operations; authored tests and guarded performance during releases.</li>
+                    <li><strong>Diagnostics:</strong> Performed deep root‑cause analysis with Splunk + Azure logs; squashed exceptions (<code>NullReferenceException</code>, <code>InvalidOperationException</code>, ORM/SQL), eliminating noisy alerts.</li>
+                    <li><strong>Reliability:</strong> Sustained ~99.9% uptime of HA services; coordinated incident command, wrote blameless post‑mortems, and implemented preventive SLOs and alerts.</li>
+                    <li><strong>Data operations:</strong> Engineered HIPAA‑aligned DB work (T‑SQL, migrations, backfills, client merges) and optimized heavy stored procedures for reporting paths.</li>
+                    <li><strong>Medication platform:</strong> Worked with First DataBank (FDB) integrations and MAR/eMAR features; resolved issues with med sources and cross‑episode carryover.</li>
+                    <li><strong>Automation:</strong> Built PowerShell + ServiceNow + SQL tooling that pulled state‑reporting cases, deduped by metadata, and exported Excel indexes; saved hundreds of hours of manual effort.</li>
+                    <li><strong>Tooling:</strong> Used JAMS for after‑hours report runs; created tracing to debug multi‑proc PMR exports and CCD generation paths.</li>
+                    <li><strong>Customer delivery:</strong> Shipped 30+ billable projects and created docs/runbooks that cut escalations across ~600 high‑priority requests.</li>
                   </ul>
                 </div>
               </div>
@@ -218,14 +221,14 @@
             <div id="exp-conv" class="acc-panel" role="region">
               <div class="acc-panel-inner">
                 <div class="grid" style="grid-template-columns: 56px 1fr; align-items:start; gap:14px">
-                  <a class="logo" title="Add /assets/convercent.png" href="#">
-                    <img alt="Convercent logo placeholder" data-src="./assets/convercent.png" />
+                  <a class="logo" title="Add /assets/logos/convercent.png" href="#">
+                    <img alt="Convercent logo placeholder" data-src="./assets/logos/convercent.png" />
                   </a>
                   <ul class="bullets">
-                    <li>Resolved 330+ engineering tickets/year across a .NET monolith; improved platform stability and UX while reducing tech debt.</li>
-                    <li>Executed precision SQL fixes for GDPR and data integrity; coordinated bi‑weekly sprint reviews and peer code reviews.</li>
-                    <li>Diagnosed end‑to‑end issues across APIs, DB, Azure infra, and 3rd‑party services using devtools, Postman, SendGrid, and Azure telemetry.</li>
-                    <li>Built a scalable localization framework that enabled launches in 3 new languages for 400k+ users.</li>
+                    <li>Resolved ~300+ engineering tickets/year across a .NET monolith; improved stability and UX while paying down tech debt.</li>
+                    <li>Executed precise SQL changes for GDPR/data integrity; partnered with product & QA to ship safely each sprint.</li>
+                    <li>Investigated end‑to‑end defects across APIs, DB, Azure infra, and 3rd‑party services (Postman, SendGrid, telemetry) and documented fixes.</li>
+                    <li>Built an extensible localization framework enabling new language rollouts without code churn.</li>
                   </ul>
                 </div>
               </div>
@@ -253,12 +256,12 @@
             <div id="exp-usaf" class="acc-panel" role="region">
               <div class="acc-panel-inner">
                 <div class="grid" style="grid-template-columns: 56px 1fr; align-items:start; gap:14px">
-                  <a class="logo" title="Add /assets/usaf.png" href="#">
-                    <img alt="USAF emblem placeholder" data-src="./assets/usaf.png" />
+                  <a class="logo" title="Add /assets/logos/usaf.png" href="#">
+                    <img alt="USAF emblem placeholder" data-src="./assets/logos/usaf.png" />
                   </a>
                   <ul class="bullets">
                     <li>Hands‑on structural maintenance across sheet metal, welding, carpentry, masonry, and finishes; rotated among specialized teams quarterly.</li>
-                    <li>Led cross‑functional teams of three; optimized workflows and resource allocation for mission‑critical infrastructure.</li>
+                    <li>Led crews of three; prioritized tasks and resources to keep mission facilities operable under tight timelines.</li>
                     <li>Selected for USAF Honor Guard; executed 35+ ceremonial events and 8 high‑profile Color Guard processions.</li>
                     <li>Designed a 15‑ft training‑hall mural and the official 99th CES commemorative coin.</li>
                   </ul>
@@ -337,21 +340,21 @@
               <div>
                 <h3 class="acc-title h3">B.S. Finance (Info Systems focus) — University of Colorado Denver</h3>
                 <div class="acc-meta">
-                  <span class="chip">Expected Summer 2025</span>
-                  <span class="chip">GPA 3.7</span>
+                  <span class="chip">Completed Aug 2025</span>
                 </div>
               </div>
               <button class="acc-toggle" aria-controls="edu-ucd" aria-expanded="false">
                 <img class="chev" alt="expand" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='%23a7b3cc'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"/>
-                <span>Coursework</span>
+                <span>Coursework & highlights</span>
               </button>
             </div>
             <div id="edu-ucd" class="acc-panel" role="region">
               <div class="acc-panel-inner">
-                <p class="muted">Interdisciplinary curriculum bridging finance, analytics, and systems design.</p>
+                <p class="muted">Interdisciplinary curriculum bridging finance, analytics, and systems design, applied to real‑world engineering problems.</p>
                 <ul class="bullets">
-                  <li><strong>Finance:</strong> Corporate Finance, Investments/Portfolio Mgmt, Markets & Institutions, Intl Finance, Capital Budgeting (NPV/IRR).</li>
-                  <li><strong>IS:</strong> Database Mgmt (SQL), Web Design, Enterprise Architecture, Info Security & Privacy, Python Programming, Project Mgmt (Agile/Scrum).</li>
+                  <li><strong>Finance:</strong> Corporate Finance, Investments/Portfolio Mgmt, Markets & Institutions, International Business/Finance, Capital Budgeting (NPV/IRR), Risk & Return, Project Valuation.</li>
+                  <li><strong>IS:</strong> Database Mgmt (SQL), Web Design, Enterprise Architecture, Information Security & Privacy, Python Programming, Project Management (PMBOK/Agile).</li>
+                  <li><strong>Capstones & projects:</strong> Built data pipelines and dashboards; authored market‑entry and operations plans integrating tech, cost, and risk tradeoffs.</li>
                 </ul>
               </div>
             </div>
@@ -444,6 +447,15 @@
       </div>
     </section>
 
+    <!-- DOWNLOADS (auto-rendered from /data/downloads.json) -->
+    <section class="section container" id="downloads-section" hidden>
+      <div class="section-head">
+        <h2 class="h2">Downloads & Docs</h2>
+        <span class="muted">Served from <code>/downloads</code>; links centralized in <code>/data</code></span>
+      </div>
+      <div id="downloads" class="grid"></div>
+    </section>
+
     <!-- OPTIONAL PROJECTS placeholder -->
     <section class="section container">
       <div class="section-head">
@@ -460,7 +472,7 @@
     <div class="grid">
       <div>
         <div class="muted">© <span id="year"></span> David Chui. Built for a Raspberry Pi 3 with Caddy + Cloudflare Tunnel.</div>
-        <div class="muted" style="margin-top:6px">Health check: <a href="./health.txt">/health.txt</a> (served statically)</div>
+        <div class="muted" style="margin-top:6px">Health check: <a data-link="health">/health.txt</a></div>
       </div>
     </div>
   </footer>
@@ -470,16 +482,12 @@
     const REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // Accordion behavior with animated height
-    const setPanelHeight = (panel, open) => {
-      if (REDUCED) { panel.style.maxHeight = open ? panel.scrollHeight + 'px' : '0px'; return; }
-      panel.style.maxHeight = open ? panel.scrollHeight + 'px' : '0px';
-    };
+    const setPanelHeight = (panel, open) => { panel.style.maxHeight = open ? panel.scrollHeight + 'px' : '0px'; };
 
     document.querySelectorAll('.acc').forEach((card, idx) => {
       const btn = card.querySelector('.acc-toggle');
       const panel = card.querySelector('.acc-panel');
       const id = panel.id || `acc-panel-${idx}`;
-      const labelId = `acc-label-${idx}`;
       panel.id = id; btn.setAttribute('aria-controls', id);
       card.setAttribute('aria-expanded', 'false');
       btn.addEventListener('click', () => {
@@ -488,7 +496,6 @@
         btn.setAttribute('aria-expanded', String(!open));
         setPanelHeight(panel, !open);
       });
-      // Initialize height for users with JS enabled
       setPanelHeight(panel, false);
     });
 
@@ -499,9 +506,7 @@
         for (const e of entries){ if (e.isIntersecting){ e.target.classList.add('is-visible'); io.unobserve(e.target); } }
       }, { rootMargin: '0px 0px -10% 0px' });
       revealItems.forEach(el => io.observe(el));
-    } else {
-      revealItems.forEach(el => el.classList.add('is-visible'));
-    }
+    } else { revealItems.forEach(el => el.classList.add('is-visible')); }
 
     // Lazy load images with data-src
     const lazyImgs = document.querySelectorAll('img[data-src]');
@@ -515,6 +520,47 @@
 
     // Year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // CENTRAL LINKS & DOWNLOADS (editable in /data)
+    async function hydrateLinks(){
+      try{
+        const res = await fetch('./data/links.json', {cache:'no-store'});
+        if(!res.ok) throw new Error('links.json missing');
+        const L = await res.json();
+        const q = (name) => document.querySelector(`[data-link="${name}"]`);
+        if(L.email){ q('email').href = `mailto:${L.email}`; }
+        if(L.linkedin){ q('linkedin').href = L.linkedin; q('linkedin').target = '_blank'; q('linkedin').rel = 'noopener'; }
+        if(L.github){ q('github').href = L.github; q('github').target = '_blank'; q('github').rel = 'noopener'; }
+        if(L.resume_pdf){ q('resume_pdf').href = L.resume_pdf; }
+        if(L.health){ const h = q('health'); if(h) h.href = L.health; }
+      }catch(e){ console.warn('Link hydration skipped:', e.message); }
+    }
+
+    async function renderDownloads(){
+      try{
+        const res = await fetch('./data/downloads.json', {cache:'no-store'});
+        if(!res.ok) throw new Error('downloads.json missing');
+        const items = await res.json();
+        if(!Array.isArray(items) || !items.length) return;
+        const wrap = document.getElementById('downloads');
+        document.getElementById('downloads-section').hidden = false;
+        items.forEach(it => {
+          const card = document.createElement('a');
+          card.href = it.path; card.className = 'card'; card.style.padding = '14px';
+          card.innerHTML = `<div class="grid" style="grid-template-columns:1fr auto; align-items:center">
+            <div>
+              <div class="h3" style="font-size:16px; font-weight:700">${it.label || 'Download'}</div>
+              ${it.desc ? `<div class="muted" style="margin-top:6px">${it.desc}</div>` : ''}
+            </div>
+            <span class="chip">${(it.tag||'PDF')}</span>
+          </div>`;
+          wrap.appendChild(card);
+        });
+      }catch(e){ console.info('No downloads.json found; skipping list.'); }
+    }
+
+    hydrateLinks();
+    renderDownloads();
   </script>
 </body>
 </html>
