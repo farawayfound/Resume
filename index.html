@@ -58,7 +58,13 @@
     .hero-wrap{display:grid; gap:18px; align-items:start}
     .hero-top{display:flex; align-items:center; justify-content:space-between; gap:16px}
     .avatar{width:78px; height:78px; border-radius:50%; background:linear-gradient(180deg,#3b82f6,#22d3ee); padding:3px}
-    .avatar > div{height:100%; width:100%; border-radius: inherit; background:#0b1020 url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22140%22 height=%22140%22%3E%3Crect fill=%22%230b1020%22 width=%22100%25%22 height=%22100%25%22/%3E%3Cpath fill=%22%233b82f6%22 d=%22M0 90h140v50H0z%22/%3E%3Cpath fill=%22%2322d3ee%22 d=%22M0 0h140v50H0z%22/%3E%3C/svg%3E') center/cover no-repeat}
+    .avatar > img{
+      height:100%;
+      width:100%;
+      border-radius: inherit;
+      object-fit: cover;
+      display:block;
+    }
 
     /* ===== Section headers ===== */
     .section-head{display:flex; align-items:end; justify-content:space-between; gap:12px; margin-bottom:16px}
@@ -111,7 +117,9 @@
     <div class="container hero-wrap">
       <div class="hero-top">
         <div style="display:flex; gap:14px; align-items:center">
-          <div class="avatar" aria-hidden="true"><div></div></div>
+          <div class="avatar">
+            <img src="./assets/headshots/headshot.jpg" alt="David Chui headshot" loading="lazy" decoding="async">
+          </div>
           <div>
             <div class="chip" title="Denver / Remote">📍 Denver, CO</div>
             <div class="chip" title="Last updated">Last updated: Aug 2025</div>
@@ -181,8 +189,8 @@
             <div id="exp-hchb" class="acc-panel" role="region" aria-labelledby="exp-hchb-label">
               <div class="acc-panel-inner">
                 <div class="grid" style="grid-template-columns: 56px 1fr; align-items:start; gap:14px">
-                  <a class="logo" title="Add /assets/logos/hchb.png" href="#">
-                    <img alt="HCHB logo placeholder" data-src="./assets/logos/hchb.png" />
+                  <a class="logo" title="Add /assets/logos/hchb.jpg" href="#">
+                    <img alt="HCHB logo" data-src="./assets/logos/hchb.jpg" />
                   </a>
                   <ul class="bullets">
                     <li><strong>SDLC ownership:</strong> Delivered fixes and enhancements across a large C#/.NET codebase powering regulated home‑health operations; authored tests and guarded performance during releases.</li>
@@ -221,8 +229,8 @@
             <div id="exp-conv" class="acc-panel" role="region">
               <div class="acc-panel-inner">
                 <div class="grid" style="grid-template-columns: 56px 1fr; align-items:start; gap:14px">
-                  <a class="logo" title="Add /assets/logos/convercent.png" href="#">
-                    <img alt="Convercent logo placeholder" data-src="./assets/logos/convercent.png" />
+                  <a class="logo" title="Add /assets/logos/onetrust.jpg" href="#">
+                    <img alt="Convercent logo" data-src="./assets/logos/onetrust.jpg" />
                   </a>
                   <ul class="bullets">
                     <li>Resolved ~300+ engineering tickets/year across a .NET monolith; improved stability and UX while paying down tech debt.</li>
@@ -256,8 +264,8 @@
             <div id="exp-usaf" class="acc-panel" role="region">
               <div class="acc-panel-inner">
                 <div class="grid" style="grid-template-columns: 56px 1fr; align-items:start; gap:14px">
-                  <a class="logo" title="Add /assets/logos/usaf.png" href="#">
-                    <img alt="USAF emblem placeholder" data-src="./assets/logos/usaf.png" />
+                  <a class="logo" title="Add /assets/logos/usaf.jpg" href="#">
+                    <img alt="USAF emblem placeholder" data-src="./assets/logos/usaf.jpg" />
                   </a>
                   <ul class="bullets">
                     <li>Hands‑on structural maintenance across sheet metal, welding, carpentry, masonry, and finishes; rotated among specialized teams quarterly.</li>
