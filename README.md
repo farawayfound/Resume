@@ -1,6 +1,6 @@
 # 🌐 Interactive Resume on Raspberry Pi
 
-This project hosts my interactive resume on a **Raspberry Pi 3 B+** as a self-contained, production-ready static site.  
+This project hosts my interactive resume on a **Raspberry Pi 3 B+** as a self-contained, demo-ready static site.  
 It demonstrates not only my professional journey but also my ability to design, harden, and operate reliable systems end-to-end — from hardware to frontend UX.
 
 ---
@@ -124,4 +124,5 @@ Would you like me to also draft a **shorter, recruiter-facing version** (like a 
 
 
 Ask ChatGPT
+
 
