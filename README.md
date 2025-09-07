@@ -48,21 +48,23 @@ It demonstrates not only my professional journey but also my ability to design, 
 
 ## 📂 Project Structure
 
+```text
 /srv/resume/site
-│
-├── index.html # Interactive resume
-├── assets/ # Images, headshot, logos, future projects
-│ ├── headshots/
-│ └── logos/
-├── data/ # Centralized JSON configs
-│ └── links.json
-├── downloads/ # Resume PDFs and supporting docs
-│ └── resumes/
-│ └── Long-Form-Resume.pdf
-└── health.txt # Health endpoint for monitoring
-
-yaml
-Copy code
+├── index.html                # Interactive resume
+├── assets/                   # Images, headshot, logos, future projects
+│   ├── headshots/
+│   │   └── headshot.jpg
+│   └── logos/
+│       ├── hchb.jpg
+│       ├── onetrust.jpg
+│       └── usaf.jpg
+├── data/                     # Centralized JSON configs
+│   └── links.json
+├── downloads/                # Resume PDFs and supporting docs
+│   └── resumes/
+│       └── Long-Form-Resume.pdf
+└── health.txt                # Health endpoint for monitoring
+```
 
 ---
 
@@ -113,9 +115,6 @@ Experienced in C#/.NET, Azure, SQL, Kubernetes, Python, and PowerShellLong Form 
 📜 License
 This project is personal and non-commercial. You’re welcome to fork for learning purposes, but please do not redistribute the resume content as your own.
 
-yaml
-Copy code
-
 ---
 
 Would you like me to also draft a **shorter, recruiter-facing version** (like a polished project description you could paste on your LinkedIn portfolio), or should we keep this just as a GitHub README?
@@ -125,3 +124,4 @@ Would you like me to also draft a **shorter, recruiter-facing version** (like a 
 
 
 Ask ChatGPT
+
